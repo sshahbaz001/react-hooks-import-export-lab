@@ -1,6 +1,9 @@
 import React from "react";
 
 function About() {
+
+  const image = 'https://cdn.travelsafe-abroad.com/wp-content/uploads/manhattan.jpg';
+
   return (
     <div id="about">
       <h2>About Me</h2>
@@ -9,3 +12,5 @@ function About() {
     </div>
   );
 }
+
+export default About; 
